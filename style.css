@@ -1,0 +1,30 @@
+/* Custom scrollbar for the chat */
+#chat-display::-webkit-scrollbar {
+    width: 6px;
+}
+#chat-display::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 10px;
+}
+
+.user-msg {
+    background: #eab308;
+    color: #000;
+    align-self: flex-end;
+    margin-left: 2rem;
+}
+
+.ai-msg {
+    background: #1e293b;
+    color: #f1f5f9;
+    align-self: flex-start;
+    margin-right: 2rem;
+}
+
+.msg-bubble {
+    padding: 12px 16px;
+    border-radius: 18px;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 85%;
+}
